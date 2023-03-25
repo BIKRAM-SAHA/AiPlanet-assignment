@@ -25,3 +25,12 @@
 .edit-hackathon .upload-form .btn {
   width: 192px;
 }
+
+@media (max-width: 880px) {
+  .edit-hackathon {
+    padding: 0;
+  }
+  .edit-hackathon .upload-form {
+    margin: 0;
+  }
+}
