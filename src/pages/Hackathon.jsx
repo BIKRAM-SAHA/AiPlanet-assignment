@@ -217,8 +217,8 @@ function Hackathon() {
                   fill="#858585"
                 />
               </svg>
-              {moment(state.hackathonStartDate).format("DD-MMM-YYYY")} -
-              {moment(state.hackathonEndDate).format("DD-MMM-YYYY")}
+              {moment(state.hackathonStartDate).format("DD MMM YYYY")} -
+              {moment(state.hackathonEndDate).format("DD MMM YYYY")}
             </p>
           </div>
 
