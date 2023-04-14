@@ -1,10 +1,15 @@
 .edit-hackathon {
   background: #f8f9fd;
   padding: 72px 0;
+  height: 100%;
+}
+.edit-hackathon .edit-hackathon-container {
+  margin: auto;
+  max-width: 1200px;
+  width: 90%;
 }
 .edit-hackathon .upload-form {
   max-width: 913px;
-  margin: 0 142px;
   padding: 40px 48px;
   background-color: #ffffff;
   display: flex;

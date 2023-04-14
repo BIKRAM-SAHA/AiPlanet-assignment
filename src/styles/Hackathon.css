@@ -1,9 +1,13 @@
+.hackathon{
+  height: 100%;
+}
 .hackathon .hero {
   color: #ffffff;
   background-color: #003145;
   padding: 96px 0;
 }
 .hackathon .hero-container {
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -61,6 +65,7 @@
 }
 
 .hackathon .hackathon-details {
+  max-width: 1200px;
   padding: 50px 0;
   display: flex;
   flex-wrap: wrap-reverse;

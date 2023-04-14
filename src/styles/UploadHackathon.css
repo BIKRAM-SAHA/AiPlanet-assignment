@@ -1,10 +1,15 @@
 .upload-hackathon {
   background: #f8f9fd;
   padding: 72px 0;
+  height: 100%;
+}
+.upload-hackathon .upload-hackathon-container {
+  margin: auto;
+  max-width: 1200px;
+  width: 90%;
 }
 .upload-hackathon .upload-form {
   max-width: 913px;
-  margin: 0 142px;
   padding: 40px 48px;
   background-color: #ffffff;
   display: flex;

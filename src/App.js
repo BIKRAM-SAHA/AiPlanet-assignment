@@ -9,18 +9,20 @@ import EditHackathon from "./pages/EditHackathon";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Router>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/hackathons/:hackathonid" element={<Hackathon />} />
-          <Route path="/uploadhackathon" element={<UploadHackathon />} />
-          <Route
-            path="/edithackathon/:hackathonid"
-            element={<EditHackathon />}
-          />
-        </Routes>
+        <div className="app-body">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/hackathons/:hackathonid" element={<Hackathon />} />
+            <Route path="/uploadhackathon" element={<UploadHackathon />} />
+            <Route
+              path="/edithackathon/:hackathonid"
+              element={<EditHackathon />}
+            />
+          </Routes>
+        </div>
       </Router>
     </div>
   );
